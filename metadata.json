@@ -1,0 +1,7 @@
+{
+  "name": "Builder Lead Engine MVP",
+  "description": "A multi-tenant SaaS admin tool that pulls UK planning applications from PlanIt.org.uk, filters them per client criteria, and syncs them as leads to GoHighLevel CRM.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

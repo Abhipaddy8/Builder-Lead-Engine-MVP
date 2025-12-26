@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builder Lead Engine - Admin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                blue: '#0069b1',
+                gold: '#fdce36',
+                orange: '#fbaa35',
+                dark: '#414042',
+                grey: '#d2d2d2',
+              }
+            },
+            fontFamily: {
+              sans: ['"Source Sans Pro"', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        body { font-family: 'Source Sans Pro', sans-serif; color: #414042; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body class="bg-white text-brand-dark">
+    <div id="root"></div>
+</body>
+</html>
